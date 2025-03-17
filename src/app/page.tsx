@@ -175,12 +175,12 @@ export default function Home() {
           
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
-              <li><Link href="#about" className={`transition duration-300 ${activeSection === 'about' ? 'text-white font-medium' : 'hover:text-white'}`}>About</Link></li>
-              <li><Link href="#services" className={`transition duration-300 ${activeSection === 'services' ? 'text-white font-medium' : 'hover:text-white'}`}>Services</Link></li>
-              <li><Link href="#projects" className={`transition duration-300 ${activeSection === 'projects' ? 'text-white font-medium' : 'hover:text-white'}`}>Projects</Link></li>
-              <li><Link href="#process" className={`transition duration-300 ${activeSection === 'process' ? 'text-white font-medium' : 'hover:text-white'}`}>Process</Link></li>
-              <li><Link href="#blog" className={`transition duration-300 ${activeSection === 'blog' ? 'text-white font-medium' : 'hover:text-white'}`}>Blog</Link></li>
-              <li><Link href="#contact" className={`transition duration-300 ${activeSection === 'contact' ? 'text-white font-medium' : 'hover:text-white'}`}>Contact</Link></li>
+              <li><Link onClick={() => setActiveSection('about')} href="#about" className={`transition duration-300 ${activeSection === 'about' ? 'text-white font-medium' : 'hover:text-white'}`}>About</Link></li>
+              <li><Link onClick={() => setActiveSection('services')} href="#services" className={`transition duration-300 ${activeSection === 'services' ? 'text-white font-medium' : 'hover:text-white'}`}>Services</Link></li>
+              <li><Link onClick={() => setActiveSection('projects')} href="#projects" className={`transition duration-300 ${activeSection === 'projects' ? 'text-white font-medium' : 'hover:text-white'}`}>Projects</Link></li>
+              <li><Link onClick={() => setActiveSection('process')} href="#process" className={`transition duration-300 ${activeSection === 'process' ? 'text-white font-medium' : 'hover:text-white'}`}>Process</Link></li>
+              <li><Link onClick={() => setActiveSection('blog')} href="#blog" className={`transition duration-300 ${activeSection === 'blog' ? 'text-white font-medium' : 'hover:text-white'}`}>Blog</Link></li>
+              <li><Link onClick={() => setActiveSection('contact')} href="#contact" className={`transition duration-300 ${activeSection === 'contact' ? 'text-white font-medium' : 'hover:text-white'}`}>Contact</Link></li>
             </ul>
           </nav>
           
