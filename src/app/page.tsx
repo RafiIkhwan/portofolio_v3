@@ -193,7 +193,7 @@ export default function Home() {
           
           <Link href="#contact" className="hidden md:block">
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 shadow-lg">
-              Let's Talk
+              Let&apos;s Talk
             </button>
           </Link>
         </div>
@@ -545,7 +545,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-700 italic">
-                  "Rafi memiliki pemahaman yang kuat tentang pengembangan web modern dan mampu bekerja dengan baik dalam tim. Dia sangat proaktif dalam menyelesaikan masalah dan selalu memberikan solusi yang efektif untuk setiap tantangan yang dihadapi."
+                  &quot;Rafi memiliki pemahaman yang kuat tentang pengembangan web modern dan mampu bekerja dengan baik dalam tim. Dia sangat proaktif dalam menyelesaikan masalah dan selalu memberikan solusi yang efektif untuk setiap tantangan yang dihadapi.&quot;
                 </p>
               </div>
             </div>
